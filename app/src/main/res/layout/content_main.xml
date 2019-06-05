@@ -9,6 +9,7 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
+
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
@@ -23,7 +24,7 @@
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-           app:toolbarId="@+id/toolbar">
+            app:toolbarId="@+id/toolbar">
 
             <Toolbar
                 android:id="@+id/detail_toolbar"
