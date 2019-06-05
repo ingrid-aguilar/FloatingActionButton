@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-//animación de escala en el floating action button
+
+        //Animación de escala en el floating action button
 
        final FloatingActionButton fab = findViewById(R.id.fab);
        fab.setScaleX(0);
