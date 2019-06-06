@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
                 click = !click;
 
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
+               if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
                     final Interpolator interpolator = AnimationUtils.loadInterpolator(getBaseContext(), android.R.interpolator.fast_out_slow_in);
 
                     view.animate()
